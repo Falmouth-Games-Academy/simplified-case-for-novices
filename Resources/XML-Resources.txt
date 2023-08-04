@@ -1,0 +1,7 @@
+https://www.w3schools.com/xml/xml_xlink.asp
+
+https://www.geeksforgeeks.org/xml-tags/
+
+https://docs.microsoft.com/en-us/dotnet/standard/linq/linq-xml-overview
+
+https://stackoverflow.com/questions/55828/how-does-one-parse-xml-files

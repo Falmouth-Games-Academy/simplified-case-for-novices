@@ -1,0 +1,10 @@
+https://github.com/microsoft/terminal/issues/3821
+
+https://medium.com/the-unpopular-opinions-of-a-senior-developer/powershell-pro-tip-for-developers-add-visual-studio-dev-mode-module-to-profile-as-an-alias-aff6a283e264
+
+https://www.techrepublic.com/article/how-to-customize-powershell-settings-using-profiles/
+
+https://www.tutorialspoint.com/how-to-copy-items-from-one-location-to-another-location-using-powershell#:~:text=To%20copy%20items%20in%20PowerShell,the%20D%3A%5CTemp1%20location.
+
+https://caiomsouza.medium.com/fix-for-powershell-script-not-digitally-signed-69f0ed518715
+

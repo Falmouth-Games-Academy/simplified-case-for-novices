@@ -1,0 +1,8 @@
+{
+    "guid": "{1748ecca-abdd-4aa4-bcc4-9fca0d045be5}",
+    "name": "VS Developer PowerShell",
+    "commandline": "powershell.exe -NoExit -Command \"&{ $vsInstallPath=& \"${env:ProgramFiles(x86)}/'Microsoft Visual Studio'/Installer/vswhere.exe\" -prerelease -latest -property installationPath; Import-Module \"$vsInstallPath/Common7/Tools/Microsoft.VisualStudio.DevShell.dll\"; Enter-VsDevShell -VsInstallPath $vsInstallPath -SkipAutomaticLocation }\"",
+    "icon": "https://devblogs.microsoft.com/wp-content/uploads/sites/4/2019/06/vs-for-mac-logo-caption2.png",
+    "startingDirectory": "%USERPROFILE%",
+    "hidden": false
+},

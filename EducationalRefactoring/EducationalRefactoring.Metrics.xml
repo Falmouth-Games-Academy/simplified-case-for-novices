@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="EducationalRefactoring.csproj">
+      <Assembly Name="EducationalRefactoring, Version=1.0.0.0, Culture=neutral, PublicKeyToken=95b0dd6372707c69">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="81" />
+          <Metric Name="CyclomaticComplexity" Value="54" />
+          <Metric Name="ClassCoupling" Value="85" />
+          <Metric Name="DepthOfInheritance" Value="9" />
+          <Metric Name="SourceLines" Value="607" />
+          <Metric Name="ExecutableLines" Value="170" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="EducationalRefactoring">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="81" />
+              <Metric Name="CyclomaticComplexity" Value="54" />
+              <Metric Name="ClassCoupling" Value="85" />
+              <Metric Name="DepthOfInheritance" Value="9" />
+              <Metric Name="SourceLines" Value="607" />
+              <Metric Name="ExecutableLines" Value="170" />
+            </Metrics>
+            <Types>
+              <NamedType Name="DetectSave">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="83" />
+                  <Metric Name="CyclomaticComplexity" Value="14" />
+                  <Metric Name="ClassCoupling" Value="19" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="89" />
+                  <Metric Name="ExecutableLines" Value="22" />
+                </Metrics>
+                <Members>
+                  <Field Name="RunningDocumentTable DetectSave.mRunningDocumentTable" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="327">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DTE DetectSave.mDte" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="328">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Event Name="event OnAfterSaveHandler DetectSave.AfterSave" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="331">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Event>
+                  <Event Name="event OnBeforeSaveHandler DetectSave.BeforeSave" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="334">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Event>
+                  <Method Name="DetectSave.DetectSave(IServiceProvider serviceProvider, RunningDocumentTable rdt)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="336">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Document DetectSave.FindDocumentByCookie(uint docCookie)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="346">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int DetectSave.OnAfterSave(uint docCookie)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="354">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int DetectSave.OnBeforeSave(uint docCookie)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="367">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int DetectSave.OnAfterFirstDocumentLock(uint docCookie, uint dwRDTLockType, uint dwReadLocksRemaining, uint dwEditLocksRemaining)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="382">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int DetectSave.OnBeforeLastDocumentUnlock(uint docCookie, uint dwRDTLockType, uint dwReadLocksRemaining, uint dwEditLocksRemaining)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="387">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int DetectSave.OnAfterAttributeChange(uint docCookie, uint grfAttribs)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="392">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int DetectSave.OnBeforeDocumentWindowShow(uint docCookie, int fFirstShow, IVsWindowFrame pFrame)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="397">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int DetectSave.OnAfterDocumentWindowHide(uint docCookie, IVsWindowFrame pFrame)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="402">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int DetectSave.OnAfterAttributeChangeEx(uint docCookie, uint grfAttribs, IVsHierarchy pHierOld, uint itemidOld, string pszMkDocumentOld, IVsHierarchy pHierNew, uint itemidNew, string pszMkDocumentNew)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="407">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="DetectSave.OnAfterSaveHandler">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="1" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+              </NamedType>
+              <NamedType Name="DetectSave.OnBeforeSaveHandler">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="1" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+              </NamedType>
+              <NamedType Name="EducationalRefactoringPackage">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="59" />
+                  <Metric Name="CyclomaticComplexity" Value="23" />
+                  <Metric Name="ClassCoupling" Value="55" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="296" />
+                  <Metric Name="ExecutableLines" Value="110" />
+                </Metrics>
+                <Members>
+                  <Field Name="string EducationalRefactoringPackage.PackageGuidString" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="55">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="IVsUIShell EducationalRefactoringPackage.uiShell" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="57">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DetectSave EducationalRefactoringPackage.detectSave" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="59">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="IServiceProvider EducationalRefactoringPackage.serviceProvider" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="61">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RunningDocumentTable EducationalRefactoringPackage.docTable" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="62">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="OutputWindowPane EducationalRefactoringPackage.outputWindow" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="64">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool EducationalRefactoringPackage.metricPackageInit" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="66">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="EducationalRefactoringPackage.EducationalRefactoringPackage()" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="71">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task EducationalRefactoringPackage.InitializeAsync(CancellationToken cancellationToken, IProgress&lt;ServiceProgressData&gt; progress)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="96">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="33" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void EducationalRefactoringPackage.SetupMSBuildPath(Document aDocument)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="121">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void EducationalRefactoringPackage.SetupMetricPackage(Document aDocument)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="136">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void EducationalRefactoringPackage.CreatePane(string title)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="155">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="17" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void EducationalRefactoringPackage.OnAfterSave(object sender, Document aDocument)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="173">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void EducationalRefactoringPackage.RunCodeMetrics(Document aDocument)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="194">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="28" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="IEnumerable&lt;string&gt;[] EducationalRefactoringPackage.CheckForFlags(IEnumerable&lt;XElement&gt; methodElements, int flagValueTrigger, int flagValueMin)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="223">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="16" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void EducationalRefactoringPackage.ProcessCodeMetrics(string path)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\EducationalRefactoringPackage.cs" Line="240">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="39" />
+                      <Metric Name="CyclomaticComplexity" Value="10" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="81" />
+                      <Metric Name="ExecutableLines" Value="47" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ToolWindow_ER">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="76" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="28" />
+                  <Metric Name="ExecutableLines" Value="4" />
+                </Metrics>
+                <Members>
+                  <Method Name="ToolWindow_ER.ToolWindow_ER()" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\ToolWindow_ER.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="83" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ToolWindow_ERCommand">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="77" />
+                  <Metric Name="CyclomaticComplexity" Value="10" />
+                  <Metric Name="ClassCoupling" Value="20" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="92" />
+                  <Metric Name="ExecutableLines" Value="17" />
+                </Metrics>
+                <Members>
+                  <Field Name="int ToolWindow_ERCommand.CommandId" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\ToolWindow_ERCommand.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Guid ToolWindow_ERCommand.CommandSet" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\ToolWindow_ERCommand.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="AsyncPackage ToolWindow_ERCommand.package" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\ToolWindow_ERCommand.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="ToolWindow_ERCommand.ToolWindow_ERCommand(AsyncPackage package, OleMenuCommandService commandService)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\ToolWindow_ERCommand.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="15" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="ToolWindow_ERCommand ToolWindow_ERCommand.Instance" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\ToolWindow_ERCommand.cs" Line="51">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ToolWindow_ERCommand ToolWindow_ERCommand.Instance.get" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\ToolWindow_ERCommand.cs" Line="53">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ToolWindow_ERCommand.Instance.set" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\ToolWindow_ERCommand.cs" Line="54">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="IAsyncServiceProvider ToolWindow_ERCommand.ServiceProvider" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\ToolWindow_ERCommand.cs" Line="60">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="IAsyncServiceProvider ToolWindow_ERCommand.ServiceProvider.get" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\ToolWindow_ERCommand.cs" Line="62">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="Task ToolWindow_ERCommand.InitializeAsync(AsyncPackage package)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\ToolWindow_ERCommand.cs" Line="72">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ToolWindow_ERCommand.Execute(object sender, EventArgs e)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\ToolWindow_ERCommand.cs" Line="87">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ToolWindow_ERControl">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="82" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="8" />
+                  <Metric Name="DepthOfInheritance" Value="9" />
+                  <Metric Name="SourceLines" Value="27" />
+                  <Metric Name="ExecutableLines" Value="4" />
+                </Metrics>
+                <Members>
+                  <Method Name="ToolWindow_ERControl.ToolWindow_ERControl()" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\ToolWindow_ERControl.xaml.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ToolWindow_ERControl.button1_Click(object sender, RoutedEventArgs e)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\ToolWindow_ERControl.xaml.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ToolWindow_ERPackage">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="73" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="14" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="59" />
+                  <Metric Name="ExecutableLines" Value="13" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ToolWindow_ERPackage.PackageGuidString" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\ToolWindow_ERPackage.cs" Line="45">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="ToolWindow_ERPackage.ToolWindow_ERPackage()" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\ToolWindow_ERPackage.cs" Line="50">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task ToolWindow_ERPackage.InitializeAsync(CancellationToken cancellationToken, IProgress&lt;ServiceProgressData&gt; progress)" File="C:\Users\cg233192\R-D-Comp320\EducationalRefactoring\ToolWindow_ERPackage.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="16" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>
